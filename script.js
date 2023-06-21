@@ -89,6 +89,9 @@ function newPost() {
     title: title.value,
     body: textarea.value,
   };
+  id.placeholder = "ID";
+  title.value = "";
+  textarea.value = "";
   return object;
 }
 
