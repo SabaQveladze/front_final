@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(255, 203, 139);
+}
+.header {
+  height: 50px;
+  background-color: white;
+  margin: 0 30px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.final {
+  margin: 30px;
+}
+.tags {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.loginbtn {
+  background-color: transparent;
+}
+.login {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  display: flex;
+}
+.loginbtn {
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+}
+.final:hover {
+  text-decoration: underline;
+}
+.tag:hover {
+  text-decoration: underline;
+}
+.tag {
+  text-decoration: none;
+  color: black;
+}
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+h2 {
+  text-decoration: underline;
+}
+.names {
+  text-decoration: underline;
+  padding: 10px;
+}
+.cardlist {
+  margin: 0 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  margin: 15px 10px 20px 10px;
+}
+.info {
+  color: gray;
+  font-size: 13px;
+}
+.infodiv {
+  padding: 10px;
+}
+.slctuser {
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+}
+.userbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  background-color: white;
+
+  height: fit-content;
+  border-radius: 20px;
+}
+.posts {
+  box-shadow: 10px 10px 50px #000000;
+  border-radius: 0 20px 20px 20px;
+
+  margin: 15px;
+  width: 270px;
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.postInput {
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+  height: 100%;
+}
+.submit {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.info:hover {
+  transition: 0.4s;
+  font-size: larger;
+  cursor: default;
+}
+.slctuser {
+  font-weight: bold;
+}
+.photoTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+
+  margin-top: 30px;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}

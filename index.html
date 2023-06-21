@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinalWork</title>
+    <link
+      rel="icon"
+      href="https://t3.ftcdn.net/jpg/02/01/30/82/360_F_201308263_ylhTkL69sCEDKWXlXu2S4rumX4JZqb4f.jpg"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <p style="font-size: 25px" class="final">Final</p>
+        <div class="tags">
+          <a class="tag" href="#">Posts</a>
+          <a class="tag" href="#">Comments</a>
+          <a class="tag" href="#">Photos</a>
+          <a class="tag" href="#">Users</a>
+        </div>
+        <div class="login">
+          <button class="loginbtn" href="#">Login</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="users"><h2>Users</h2></div>
+    <div>
+      <div class="cardlist"></div>
+    </div>
+
+    <div class="postContainer">
+      <div class="posts">
+        <div class="title">
+          <p style="margin-top: 15px">Add New Post</p>
+          <input class="idInput postInput" disabled placeholder="ID" />
+          <input class="postInput titleInput" placeholder="Title" />
+          <div>
+            <label for="textarea">Body</label>
+            <br />
+            <textarea
+              class="textarea"
+              name="textarea"
+              rows="3"
+              cols="20"
+              style="border-radius: 15px 15px 0 15px; padding: 5px"
+            ></textarea>
+          </div>
+
+          <button class="submit" onclick="postJSON(newPost())">
+            <strong>Submit</strong>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="photoTitle">
+      <p style="font-size: 25px">Photos</p>
+    </div>
+    <div class="photos"></div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
